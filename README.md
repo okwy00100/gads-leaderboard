@@ -3,4 +3,4 @@ GADS practice project to create a Leaderboard Mobile App. Implemented with Andro
 
 
 
-<img src="https://github.com/okwy00100/gads-leaderboard/blob/dev/Screenshots/splash_screen.png" height="300" width="100">
+<img src="https://github.com/okwy00100/gads-leaderboard/blob/dev/Screenshots/splash_screen.png" height="500" width="400">
