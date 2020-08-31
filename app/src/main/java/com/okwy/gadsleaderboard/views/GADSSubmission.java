@@ -39,7 +39,7 @@ public class GADSSubmission extends AppCompatActivity {
                 || emailAddressField.getText().toString().isEmpty() || projectLinkField.getText().toString().isEmpty() ||
                 firstNameField.getText().toString().trim().equals("") || lastNameField.getText().toString().trim().equals("")
                 || emailAddressField.getText().toString().trim().equals("") || projectLinkField.getText().toString().trim().equals("")) {
-            Toast.makeText(this, "Please input all details", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.input_prompt, Toast.LENGTH_SHORT).show();
         } else {
 
             dialog.showSubmitDialog(this,
@@ -47,24 +47,6 @@ public class GADSSubmission extends AppCompatActivity {
                     lastNameField.getText().toString().trim(),
                     emailAddressField.getText().toString().trim(),
                     projectLinkField.getText().toString().trim());
-
-
-//            String submissionResponse = UtilityClass.projectSubmissionFormProcessor(
-//                    firstNameField.getText().toString().trim(),
-//                    lastNameField.getText().toString().trim(),
-//                    emailAddressField.getText().toString().trim(),
-//                    projectLinkField.getText().toString().trim());
-//
-//
-//            if (submissionResponse.equals("200")) {
-//                Toast.makeText(this, "Submitted successfully", Toast.LENGTH_SHORT).show();
-//                firstNameField.setText("");
-//                lastNameField.setText("");
-//                emailAddressField.setText("");
-//                projectLinkField.setText("");
-//            } else {
-//                Toast.makeText(this, "Failed to Submit", Toast.LENGTH_SHORT).show();
-//            }
         }
     }
 }
