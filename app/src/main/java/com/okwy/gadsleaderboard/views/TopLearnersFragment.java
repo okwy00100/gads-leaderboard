@@ -59,7 +59,7 @@ public class TopLearnersFragment extends Fragment {
         topLearnersListRecycler.setLayoutManager(new LinearLayoutManager(context));
         topLearnersListRecycler.setAdapter(topLearnersListAdapter);
 
-        new fetchTopLearnersList().execute();  // TODO: do internet check
+        new fetchTopLearnersList().execute();
     }
 
 

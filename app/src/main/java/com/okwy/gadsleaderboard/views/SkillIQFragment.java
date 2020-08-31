@@ -61,7 +61,7 @@ public class SkillIQFragment extends Fragment {
         skillIQListRecycler.setAdapter(skillIQListAdapter);
 
 
-        new fetchSkillIQList().execute(); // TODO: do internet check
+        new fetchSkillIQList().execute();
 
     }
 
