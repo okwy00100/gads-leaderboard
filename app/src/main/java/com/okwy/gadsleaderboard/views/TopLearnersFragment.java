@@ -62,10 +62,7 @@ public class TopLearnersFragment extends Fragment {
         new fetchTopLearnersList().execute();  // TODO: do internet check
     }
 
-    @Override
-    public void setUserVisibleHint(boolean isVisibleToUser) {
 
-    }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {

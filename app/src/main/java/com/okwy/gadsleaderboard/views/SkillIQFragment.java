@@ -65,10 +65,7 @@ public class SkillIQFragment extends Fragment {
 
     }
 
-    @Override
-    public void setUserVisibleHint(boolean isVisibleToUser) {
 
-    }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
