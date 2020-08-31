@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">GADSLeaderboard</string>
+    <string name="name_placeholder">John Doe</string>
+    <string name="content_placeholder_top_learners">{$hours} Learning Hours, {$country}</string>
+    <string name="content_placeholder_skill_iq">{$skilliq} skill IQ Score, {$country}</string>
+    <string name="submit">Submit</string>
+    <string name="link_to_project_on_github">Link to Project on GitHub</string>
+    <string name="email_address">Email Address</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="learning_leaders">Learning Leaders</string>
+    <string name="skill_iq_leaders">Skill IQ Leaders</string>
+    <string name="leaderboard">LEADERBOARD</string>
+    <string name="submit_button">Submit button</string>
+    <string name="splash_screen">Splash Screen</string>
+    <string name="gads_logo">GADS Logo</string>
+    <string name="project_submission">Project Submission</string>
+    <string name="submission_not_successful">Submission not Successful</string>
+    <string name="submit_failed">Submit Failed</string>
+    <string name="submission_successful">Submission Successful</string>
+    <string name="submit_success">Submit Success</string>
+    <string name="are_you_sure">Are You Sure?</string>
+    <string name="yes">Yes</string>
+    <string name="cancel_button">Cancel Button</string>
+    <string name="top_learners_image">Top Learners Image</string>
+    <string name="skill_iq_image">Skill IQ Image</string>
+</resources>
