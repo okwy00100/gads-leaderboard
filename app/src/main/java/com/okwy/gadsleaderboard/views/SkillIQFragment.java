@@ -60,6 +60,7 @@ public class SkillIQFragment extends Fragment {
         skillIQListRecycler.setLayoutManager(new LinearLayoutManager(context));
         skillIQListRecycler.setAdapter(skillIQListAdapter);
 
+
         new fetchSkillIQList().execute(); // TODO: do internet check
 
     }
