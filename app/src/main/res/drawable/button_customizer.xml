@@ -3,4 +3,8 @@
     android:shape="rectangle">
     <corners android:radius="100dp"/>
     <solid android:color="@color/pluralsightOrange"/>
+    <gradient android:startColor="@color/colorPrimaryLight"
+        android:centerColor="@color/pluralsightOrange"
+        android:endColor="@color/pluralsightOrange"
+        android:angle="315"/>
 </shape>
