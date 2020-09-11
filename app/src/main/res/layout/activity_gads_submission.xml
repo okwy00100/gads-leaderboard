@@ -52,10 +52,10 @@
                 android:id="@+id/view"
                 android:layout_width="0dp"
                 android:layout_height="1dp"
-                android:layout_marginStart="100dp"
+                android:layout_marginStart="30dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginEnd="100dp"
-                android:background="@color/pluralsightOrange"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/gradient"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/projectsubmissiontxt" />
